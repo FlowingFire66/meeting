@@ -14,6 +14,11 @@ import java.util.List;
  * Time: 10:40
  * Description:
  */
+ 
+/**
+ * implement the UserMapper in class UserMapperImpl 
+ * with basic operation implemented with JsonUtil
+ */
 public class UserMapperImpl implements UserMapper {
     @Override
     public void addUser(User user) {

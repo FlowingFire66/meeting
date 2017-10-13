@@ -9,6 +9,11 @@ import com.meeting.utils.JSonUtil;
  * Time: 14:59
  * Description:
  */
+ 
+/**
+ * implement the AgendaMapper in class AgendaMapperImpl 
+ * with basic operation implemented with JsonUtil
+ */
 public class AgendaMapperImpl implements AgendaMapper {
     @Override
     public boolean add(Agenda agenda) {

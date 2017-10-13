@@ -10,16 +10,21 @@ import java.util.List;
  * Time: 10:40
  * Description:
  */
+ 
+/**
+ * define the UserMapper interface, 
+ * describe it's adding,query & delete operation
+ */
 public interface UserMapper {
-    void addUser(User user);
+    void addUser(User user);//add a user with a User example
 
 
-    User findUser(User user);
+    User findUser(User user);//find a user with a User example
 
-    User findUserByUserName(String username);
+    User findUserByUserName(String username);//find a user with name(string)
 
-    List<User> findAll();
+    List<User> findAll();//find all the user and exhibite them
 
-    void deleteUserByUserName(String username);
+    void deleteUserByUserName(String username);//delete a user with name(string)
 
 }
